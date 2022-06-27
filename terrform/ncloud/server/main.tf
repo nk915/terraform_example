@@ -5,7 +5,7 @@ provider "ncloud" {
 }
 
 resource "ncloud_server" "server" {
-    name = "tf-test-vm1"
+    name = "tf-test-vm-${terraform.workspace}"
     server_image_product_code = "SPSW0LINUX000046"
     server_product_code = "SPSVRHICPU000001"
 }
