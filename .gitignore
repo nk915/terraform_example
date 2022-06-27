@@ -1,0 +1,15 @@
+
+
+## terraform secret json
+.auto.tfvars.json
+
+
+
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+
+
+
+terraform-provider-*.exe
+.terraform
