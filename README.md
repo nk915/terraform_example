@@ -1,8 +1,15 @@
 # terraform
 exec: https://github.com/hashicorp/terraform-exec
+    - github.com/hashicorp/terraform-exec/tfexec
 cdk: https://github.com/hashicorp/terraform-cdk
 
 
+
+# terraform remote
+https://www.terraform.io/language/settings/backends/remote
+
+resource : https://blog.outsider.ne.kr/1303
+remote resource : https://blog.outsider.ne.kr/1452
 
 ## 참고링크
 https://www.reddit.com/r/Terraform/comments/porpd7/programmatically_call_terraform_cdk_vs_system_call/
